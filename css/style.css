@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.box{
+    border: 2px solid black;
+    height: 477px;
+    width: 1141px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.logo img{
+    height: 150px;
+    width: auto;
+}
+
+
+.text-send{
+    display: inline;
+    height: 65px;
+    width: 1100px;
+    margin: 13px auto;
+    padding: 0px 0px 4px 4px;
+    border: 2px solid green;
+    border-radius: 9px;
+    outline: none;
+}
+.btn{
+    border: 2px solid green;
+    height: 69px;
+    width: 59px;
+    border-radius: 28px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.background-message{
+    background-color: rgb(59, 60, 61);
+    /* opacity: 1.5; */
+    width: 26%;
+    border: 2px solid black;
+    margin: 24px 7px 0px 7px;
+    padding: 9px;
+    color: white;
+}
+.rightFloat{
+    float: right;
+    clear: both;
+}
+
+.leftFloat{
+    float: left;
+    clear: both;
+}
