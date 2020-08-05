@@ -42,5 +42,11 @@ socket.on('user-joined', name=>{
 socket.on('receive',data=>{
     // console.log(data); 
     append(`${data.name}: ${data.message}`,"leftFloat")
-})
+});
 
+
+
+socket.on('left',userId=>{
+    // console.log(data); 
+    append(`${userId} left the chat`, "leftFloat")
+});
